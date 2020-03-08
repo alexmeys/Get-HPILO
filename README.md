@@ -1,12 +1,13 @@
 # Get-HPILO
-Get Health status from HPE ILO interface, in case of unhealthy, get details of the problem area. 
+Get's the health status from HP ILO interface and shows a brief overview. <br/>
+In case of a problem, it will show more details about the problem and what is causing it. 
 
 The script accepts multiple IP addresses as arguments (comma seperated). <br/>
-Before connecting to every IP, you will be prompted with a login.<br/>
-It will only read from the HP ILO and not write to it.<br/>
+Before connecting to an IP, you will be prompted with a login.<br/>
+It will only read from the HP ILO interface and not write to it.<br/>
 
-If the HP server is healthy, it will show a brief overview. <br/>
-If the HP server is unhealthy, it will try to find out what is wrong and display it. <br/>
+If the HPE server is healthy, it will show a brief overview. <br/>
+If the HPE server is unhealthy, it will try to find out what is wrong and display it. <br/>
 
 This is made with Rest Method and is tested for ILO 4 - ILO 5 <br/>
 I did not -yet- use Redfish. <br/>
