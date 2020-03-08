@@ -23,6 +23,7 @@
     Version: 1.0
     Author: Alex Meys
     Creation Date: 03/2020
+    Link: https://github.com/alexmeys/Get-HPILO
 
 .EXAMPLE
     Get-HPILO 10.10.10.100, 172.16.1.100, 192.168.1.100    
