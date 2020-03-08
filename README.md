@@ -1,5 +1,5 @@
 # Get-HPILO
-Get Health status from HP ILO interface, in case of unhealthy, get details of the problem area. 
+Get Health status from HPE ILO interface, in case of unhealthy, get details of the problem area. 
 
 The script accepts multiple IP addresses as arguments (comma seperated). <br/>
 Before connecting to every IP, you will be prompted with a login.<br/>
